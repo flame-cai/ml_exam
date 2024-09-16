@@ -1,0 +1,8 @@
+{
+    "extensions": [
+        {
+            "name": "submit",
+            "path": "./submit"
+        }
+    ]
+}
