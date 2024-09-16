@@ -293,8 +293,14 @@
     "litePluginSettings": {
       "@jupyterlite/pyodide-kernel-extension:kernel": {
         "pipliteUrls": [
-          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=51497228ca9f94ef6de188830c651a1a05ff23b0ceb39cda94625cf99aa82539"
+          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=51497228ca9f94ef6de188830c651a1a05ff23b0ceb39cda94625cf99aa82539",
+          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=9963e832a3b67ca946830788cda18fe8a2ecfadf76b6f0f32418d32bea145717"
         ]
+      }
+    },
+    "settingsOverrides": {
+      "@jupyterlab/apputils-extension:themes": {
+        "theme": "JupyterLab Dark"
       }
     }
   },
