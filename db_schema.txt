@@ -1,0 +1,66 @@
+{
+    email: username@flame.edu.in,
+    quiz1: {
+        progress: 0/1/2,
+        mcq: {
+            "qid": "aid",
+            ...
+
+        }
+        code: {
+            "qid": "text",
+            ...
+
+        }
+        logs: {
+            "timestamp": "duration",
+            ...
+        },
+        total_out_of_focus: int,
+        total_duration: int,
+    }
+}
+
+
+
+
+{
+    email: "kaushik@flame",
+    ml_quiz1: {
+        mcq: {
+            {
+                qid: int,
+                question: text,
+                options: [
+                    {
+                        "aid" : int,
+                        answer: text,
+                    }
+                    {
+                        "aid" : int,
+                        answer: text,
+                    }
+                    {
+                        "aid" : int,
+                        answer: text,
+                    }
+                    {
+                        "aid" : int,
+                        answer: text,
+                    }
+                ]
+            },
+            ...
+
+
+        }
+        code: {
+            {
+                qid: int,
+                question: text
+            },
+            ...
+            
+        }
+    }
+}

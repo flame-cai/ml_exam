@@ -1,0 +1,41 @@
+{
+  "name": "ml_exam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://flame-cai.github.io/ml_exam",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flame-cai/ml_exam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flame-cai/ml_exam/issues"
+  },
+  "dependencies": {
+    "html2pdf.js": "^0.10.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.18.6",
+    "gh-pages": "^6.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
